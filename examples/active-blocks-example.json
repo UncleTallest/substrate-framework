@@ -1,0 +1,58 @@
+{
+  "version": "v1.0.0",
+  "last_updated": "2026-04-02T18:00:00Z",
+  
+  "active": [
+    {
+      "id": "substrate-framework-2026-04-02",
+      "path": "blocks/substrate-framework.md",
+      "priority": 1,
+      "status": "active",
+      "last_active": "2026-04-02T18:00:00Z",
+      "quick_summary": "Building public substrate-framework repository"
+    },
+    {
+      "id": "devrel-applications-2026-04-01",
+      "path": "blocks/devrel-applications.md",
+      "priority": 2,
+      "status": "active",
+      "last_active": "2026-04-01T14:00:00Z",
+      "quick_summary": "Job search and DevRel narrative building"
+    }
+  ],
+  
+  "suspended": [
+    {
+      "id": "fiverr-gigs-2026-03-20",
+      "path": "blocks/fiverr-gigs.md",
+      "priority": 3,
+      "status": "suspended",
+      "suspended_date": "2026-04-01T00:00:00Z",
+      "reason": "Waiting for gift card to arrive",
+      "quick_summary": "Temporary income via technical writing gigs"
+    },
+    {
+      "id": "domain-migration-2026-03-20",
+      "path": "blocks/domain-migration.md",
+      "status": "suspended",
+      "suspended_date": "2026-04-02T00:00:00Z",
+      "reason": "Email setup complete, migration postponed",
+      "quick_summary": "Migrate portfolio to uncletallest.productions"
+    }
+  ],
+  
+  "completed_recent": [
+    {
+      "id": "email-setup-2026-04-02",
+      "path": "blocks/email-setup.md",
+      "completed_date": "2026-04-02T18:30:00Z",
+      "quick_summary": "Zoho email with SPF/DKIM/DMARC for new domain"
+    },
+    {
+      "id": "domain-registration-2026-04-02",
+      "path": "blocks/domain-registration.md",
+      "completed_date": "2026-04-02T18:00:00Z",
+      "quick_summary": "Registered uncletallest-productions.org via Cloudflare"
+    }
+  ]
+}
