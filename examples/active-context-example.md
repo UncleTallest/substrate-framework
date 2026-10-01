@@ -1,5 +1,7 @@
 # Active Context
 
+> **Note:** Fictional example showing the monolithic approach. Compare with the modular [task-block-example.md](task-block-example.md).
+
 **Last Updated:** 2026-04-02  
 **Focus:** Professional work
 
@@ -7,61 +9,53 @@
 
 ## Current Focus
 
-Building out substrate-framework public repository to establish prior art and protect cognitive scaffolding patterns.
+Writing user-facing documentation for the plant-care app before the 1.2 release.
 
 ---
 
 ## Next Actions
 
-1. Create comprehensive pattern library
-2. Add examples for both context management approaches
-3. Write CONTRIBUTING.md
-4. Initial commit and push to GitHub
+1. Finish the configuration reference
+2. Draft the contributor guide
+3. Get a review from a second contributor
+4. Link the docs from the README
 
 ---
 
 ## Current State
 
 **Completed:**
-- ✓ Repository structure created
-- ✓ Core patterns documented (catalog, end-of-turn, structural-isomorphism)
-- ✓ Multi-domain architecture documented
-- ✓ LICENSE added (CC BY-NC-SA 4.0)
+- ✓ Docs folder structure created
+- ✓ Getting-started guide drafted
+- ✓ Setup screenshots captured
 
 **In Progress:**
-- ⏳ Context management pattern (comparing approaches)
-- ⏳ Example files and templates
-- ⏳ Documentation completion
+- ⏳ Configuration reference
+- ⏳ Contributor guide
 
 **Pending:**
-- ⏹️ CONTRIBUTING.md
-- ⏹️ Functions/hooks architecture
-- ⏹️ Conversation zero pattern
-- ⏹️ Git commit and push
+- ⏹️ Review pass
+- ⏹️ README links
+- ⏹️ Announcement post
 
 ---
 
 ## Key Files
 
-- `/substrate-framework/README.md` - Main repo description
-- `/substrate-framework/patterns/` - Pattern library
-- `/substrate-framework/domains/` - Multi-domain architecture
-- `/substrate-framework/examples/` - Implementation examples
+- `/docs/getting-started.md` - Setup walkthrough
+- `/docs/configuration.md` - Settings reference
+- `/docs/contributing.md` - Contributor guide
 
 ---
 
 ## Decisions Made
 
-- Use substrate-framework as separate repo from continuity-bridge
-- Focus on practical neurodivergent scaffolding (not consciousness research)
-- CC BY-NC-SA 4.0 license to protect IP
-- Examples show both simple and complex approaches
+- Keep each page under 10 minutes of reading
+- Document current behavior only, no roadmap promises
+- Use the default theme in screenshots
 
 ---
 
 ## Notes
 
-- Keep examples practical, not theoretical
-- Show progression from simple → complex
-- Document "when to upgrade" decision points
-- Reference ADHD/neurodivergent needs explicitly
+- Everything about every project lives in this one file, which is simple to start with but grows hard to navigate. See `patterns/context-management.md` for when to switch to task blocks.
