@@ -104,6 +104,9 @@ A required personal-data check, ratified by a human, before anything moves from 
 **Communication** (working with AI effectively)
 - always-explain-why.md
 
+**Publication** (sharing safely)
+- sanitization-stage.md
+
 ---
 
 ## Using Patterns
