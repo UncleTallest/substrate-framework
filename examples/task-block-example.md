@@ -1,111 +1,91 @@
-# Task Block: Substrate Framework Public Repository
+# Task Block: Plant-Care App Documentation
 
-**ID:** substrate-framework-2026-04-02  
+**ID:** plant-docs-2026-04-02  
 **Status:** active  
 **Priority:** high  
 **Created:** 2026-04-02  
 **Last Updated:** 2026-04-02 18:45 UTC  
-**Estimated Completion:** 2026-04-03
+**Estimated Completion:** 2026-04-05
+
+---
+
+> **Note:** This is a fictional example. Names, projects and details are invented to show the shape of a task block. Never publish a real task block without running it through the [sanitization stage](../patterns/sanitization-stage.md).
 
 ---
 
 ## Quick Context
 
-Building public substrate-framework repository to document neurodivergent cognitive scaffolding patterns, establish prior art for IP protection, and position as expert in this domain for DevRel/consulting opportunities.
+Writing user-facing documentation for a small open-source plant-care app so new contributors and users can get started without asking the maintainer.
 
 ---
 
 ## Objective
 
-Create comprehensive public repository demonstrating practical cognitive scaffolding patterns for neurodivergent AI collaboration, with clear documentation, examples, and CC BY-NC-SA 4.0 licensing to protect commercial use while allowing free adaptation.
+Publish a getting-started guide, a configuration reference, and a contributor guide for the app, each short enough to read in one sitting.
 
 ---
 
 ## Current State
 
 - ✓ **Completed:**
-  - Repository structure created
-  - Core patterns documented (catalog, end-of-turn, structural-isomorphism, context-management)
-  - Multi-domain architecture explained
-  - LICENSE added (CC BY-NC-SA 4.0)
-  - README.md with neurodivergent focus
-  - QUICKSTART.md for new users
-  - Examples for both simple and complex approaches
+  - Docs folder structure created
+  - Getting-started guide drafted
+  - Screenshots captured for setup steps
 
 - ⏳ **In Progress:**
-  - Additional patterns (functions, hooks, conversation zero)
-  - CONTRIBUTING.md
-  - Example domain primers
+  - Configuration reference (watering schedules, notification settings)
+  - Contributor guide
 
 - ⏹️ **Pending:**
-  - Initial git commit
-  - Push to GitHub
-  - Update LinkedIn/resume with new domain and repo link
-  - Consider Anima Labs outreach with substrate-framework as portfolio
+  - Review pass by a second contributor
+  - Link docs from the README
+  - Announce in the project's discussion forum
 
 ---
 
 ## Next Actions
 
-1. Create additional useful patterns (always-explain-why, parking-lot)
-2. Document functions/hooks architecture
-3. Add conversation-zero onboarding pattern
-4. Write CONTRIBUTING.md (based on native-claude-client version)
-5. Git commit and push
-6. Update professional materials with links
+1. Finish the configuration reference
+2. Draft the contributor guide from the existing PR template
+3. Ask a contributor to review both
+4. Merge and link from the README
 
 ---
 
 ## Key Files
 
-- `/substrate-framework/README.md` - Main description
-- `/substrate-framework/patterns/` - Pattern library (4 patterns so far)
-- `/substrate-framework/domains/MULTI-DOMAIN-ARCHITECTURE.md` - Core IP
-- `/substrate-framework/examples/` - Templates and examples
-- `/substrate-framework/LICENSE` - CC BY-NC-SA 4.0
+- `/docs/getting-started.md` - Setup walkthrough
+- `/docs/configuration.md` - Settings reference
+- `/docs/contributing.md` - Contributor guide
+- `/README.md` - Entry point that links the docs
 
 ---
 
 ## Dependencies
 
 **This task depends on:**
-- None (standalone work)
+- settings-refactor (configuration options must be final before documenting them)
 
 **Tasks depending on this:**
-- devrel-applications (repo becomes portfolio piece)
-- anima-labs-outreach (demonstrates expertise)
+- release-1-2 (release notes link to the new docs)
 
 ---
 
 ## Notes
 
 **Key decisions:**
-- Separated from continuity-bridge (consciousness research) to avoid philosophy debates
-- Focus on practical neurodivergent scaffolding patterns
-- Examples show progression: simple → complex (don't overwhelm beginners)
-- License protects commercial use while allowing free adaptation
-
-**IP protection strategy:**
-- Public documentation establishes prior art
-- Timestamp via GitHub commits
-- CC BY-NC-SA prevents companies from taking patterns proprietary
-- Positions for consulting: "I created this, I can implement it for you"
-
-**Domain completed today:**
-- uncletallest-productions.org registered via Cloudflare
-- tallest@, contact@, quarantine@ emails working
-- SPF, DKIM, DMARC configured
-- Professional email ready for DevRel applications
+- Keep each page under 10 minutes of reading
+- Document current behavior only; no roadmap promises in user docs
+- Screenshots use the default theme so they stay accurate longer
 
 ---
 
 ## Related
 
-- **Project:** continuity-bridge (private research repo)
-- **Project:** Substrate (private working copy)
+- **Project:** plant-care app
 - **Context:** Domain 1 (Professional) work
-- **Timeline:** Pro tier expires April 5, 2026 (3 days)
+- **Timeline:** Target the 1.2 release
 
 ---
 
-*This task represents the "establish expertise" strategy for DevRel positioning.*
+*A task block holds everything needed to resume this work cold, in one file.*
