@@ -77,6 +77,15 @@ When making decisions, explain WHY you chose that approach. Builds trust, enable
 
 ---
 
+### Publication Patterns
+
+**[sanitization-stage.md](sanitization-stage.md)**  
+A required personal-data check, ratified by a human, before anything moves from a private working Substrate into a public repo.
+
+**When to use:** Extracting a pattern, example or template from your own Substrate to share publicly.
+
+---
+
 ## Pattern Categories
 
 **Foundation** (philosophical grounding)
