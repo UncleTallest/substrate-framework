@@ -1,58 +1,59 @@
 {
-  "version": "v1.0.0",
+  "_note": "Fictional example. Names and tasks are invented to show the structure of an active-blocks index.",
+  "version": "v1.0.1",
   "last_updated": "2026-04-02T18:00:00Z",
   
   "active": [
     {
-      "id": "substrate-framework-2026-04-02",
-      "path": "blocks/substrate-framework.md",
+      "id": "plant-docs-2026-04-02",
+      "path": "blocks/plant-docs.md",
       "priority": 1,
       "status": "active",
       "last_active": "2026-04-02T18:00:00Z",
-      "quick_summary": "Building public substrate-framework repository"
+      "quick_summary": "Writing user docs for the plant-care app"
     },
     {
-      "id": "devrel-applications-2026-04-01",
-      "path": "blocks/devrel-applications.md",
+      "id": "settings-refactor-2026-04-01",
+      "path": "blocks/settings-refactor.md",
       "priority": 2,
       "status": "active",
       "last_active": "2026-04-01T14:00:00Z",
-      "quick_summary": "Job search and DevRel narrative building"
+      "quick_summary": "Consolidating app settings into one config file"
     }
   ],
   
   "suspended": [
     {
-      "id": "fiverr-gigs-2026-03-20",
-      "path": "blocks/fiverr-gigs.md",
+      "id": "short-story-2026-03-20",
+      "path": "blocks/short-story.md",
       "priority": 3,
       "status": "suspended",
       "suspended_date": "2026-04-01T00:00:00Z",
-      "reason": "Waiting for gift card to arrive",
-      "quick_summary": "Temporary income via technical writing gigs"
+      "reason": "Waiting on feedback from writing group",
+      "quick_summary": "Second draft of a short story"
     },
     {
-      "id": "domain-migration-2026-03-20",
-      "path": "blocks/domain-migration.md",
+      "id": "garden-planning-2026-03-20",
+      "path": "blocks/garden-planning.md",
       "status": "suspended",
       "suspended_date": "2026-04-02T00:00:00Z",
-      "reason": "Email setup complete, migration postponed",
-      "quick_summary": "Migrate portfolio to uncletallest.productions"
+      "reason": "Seeds ordered; nothing to do until they arrive",
+      "quick_summary": "Plan spring vegetable beds"
     }
   ],
   
   "completed_recent": [
     {
-      "id": "email-setup-2026-04-02",
-      "path": "blocks/email-setup.md",
+      "id": "docs-structure-2026-04-02",
+      "path": "blocks/docs-structure.md",
       "completed_date": "2026-04-02T18:30:00Z",
-      "quick_summary": "Zoho email with SPF/DKIM/DMARC for new domain"
+      "quick_summary": "Set up docs folder and page templates"
     },
     {
-      "id": "domain-registration-2026-04-02",
-      "path": "blocks/domain-registration.md",
+      "id": "issue-triage-2026-04-02",
+      "path": "blocks/issue-triage.md",
       "completed_date": "2026-04-02T18:00:00Z",
-      "quick_summary": "Registered uncletallest-productions.org via Cloudflare"
+      "quick_summary": "Triaged open issues and labeled good first issues"
     }
   ]
 }
